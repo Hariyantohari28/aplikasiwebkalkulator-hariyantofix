@@ -1,0 +1,168 @@
+body {
+  font-family: Verdana;
+  margin-left: 10;
+  margin-right: 10;
+  padding: 0;
+}
+
+h2 {
+  color: #00a2c6 !important;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #00c8eb;
+  text-align: center;
+  color: white;
+}
+
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav li {
+  display: inline;
+
+  margin-left: 5px;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+h2 {
+  color: #b2c600;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.profile header {
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #00a2c6;
+  text-align: center;
+}
+
+.red {
+  background-color: #0c181b;
+}
+
+.fancy {
+  font-weight: bold;
+  text-shadow: 4px 4px 3px #77f;
+}
+
+p.fancy {
+  text-shadow: 4px 4px 3px #00c8eb;
+  text-indent: 40px;
+}
+
+#special {
+  background-color: skyblue;
+}
+.boxx {
+  max-width: 200px;
+  height: 200px;
+
+  padding: 20px;
+  box-shadow: 6px 6px 5px 10px #666666;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 10px;
+  overflow: auto;
+  border-width: 10px 10px 10px 10px; /*top right bottom left*/
+  border-top-style: solid;
+  border-top-color: red;
+  border-right-color: yellow;
+  border-right-style: dotted;
+  border-bottom-style: groove;
+  border-bottom-color: green;
+  border-left-style: double;
+  border-left-color: blue;
+}
+
+.boxxx {
+  width: 50%;
+  border: 4px solid darkblue;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 50px;
+}
+
+.gambar {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.logobawah {
+  margin-left: 550px;
+}
+
+.first {
+  background-color: #60d0a8;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 80px;
+  left: 70px;
+}
+
+.second {
+  background-color: #6495ed;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.third {
+  background-color: #ffa500;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: -80px;
+  left: 70px;
+  margin-bottom: 20px;
+}
+
+.forth {
+  background-color: #f13210;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: -450px;
+  left: 200px;
+}
+
+.container {
+  width: 800px;
+  border: 4px solid black;
+  padding: 10px;
+  overflow: auto;
+}
+
+img {
+  float: left;
+  margin: 10px;
+}
